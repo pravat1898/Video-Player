@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="mediaPlayerAnnnoying.jnlp">
+  <information>
+    <title>mediaPlayerAnnnoying</title>
+    <vendor>Jhankar</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="mediaPlayerAnnnoying.jar" size="274959" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="mediaPlayerAnnnoying" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="mediaplayerannnoying.MediaPlayerAnnnoying"  name="mediaPlayerAnnnoying" />
+  <update check="always"/>
+</jnlp>
